@@ -15,3 +15,12 @@ results/**/model.pt
 results/**/logreg.npz
 results_smoke/
 results/_audit_retrain/
+
+# Secrets and local credentials (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
